@@ -1,16 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+:root {
+    --primary-color: #F7F7F7;
+    --bg-color: #F9F9F9;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--bg-color);
+    height: 100%;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.primary-bg {
+    background-color: var(--primary-color,white);
+}
+
+.loader{
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#__next{
+    height: 100%;
 }
