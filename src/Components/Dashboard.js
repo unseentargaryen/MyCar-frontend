@@ -10,7 +10,7 @@ const Dashboard = () => {
     const [categories, setCategories] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState(0);
     const [subcategories, setSubcategories] = useState([]);
-    const [selectedSubc\ategory, setSelectedSubcategory] = useState(0);
+    const [selectedSubcategory, setSelectedSubcategory] = useState(0);
     const [courses, setCourses] = useState([]);
 
     const fetchCategories = async () => {
